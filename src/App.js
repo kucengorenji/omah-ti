@@ -1,11 +1,17 @@
+import { Routes, Route } from 'react-router-dom';
 import Layout from './components/layout/Layout';
+import HomePage from './pages/HomePage';
+import ConsumeApi from './pages/ConsumeApi';
 
 function App() {
   return (
     <>
       <Layout>
         <div className="App">
-          <h1 className="text-3xl font-bold underline">Hello world!</h1>
+          <Routes>
+            <Route path="/" element={<HomePage />} />
+            <Route path="/api" element={<ConsumeApi />} />
+          </Routes>
         </div>
       </Layout>
     </>

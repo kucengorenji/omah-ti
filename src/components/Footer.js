@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
     <>
-      <div>hello world</div>
+      <div>ini footer</div>
     </>
   );
 };
