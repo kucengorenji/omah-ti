@@ -1,9 +1,9 @@
 const OutfitBar = () => {
   return (
     <>
-      <ul className="flex space-x-8 w-full bg-[#FAFAFA] justify-center">
+      <ul className="flex space-x-8 w-full bg-[#FFFFFF] ml-4 overflow-x-auto">
         <li className="m-1">
-          New Arrivals <span className="bg-red-400">#Fresh</span>
+          New Arrivals <span className="bg-red-500">#Fresh</span>
         </li>
         <li className="m-1">Dresses</li>
         <li className="m-1">Tops</li>
