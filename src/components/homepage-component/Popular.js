@@ -16,7 +16,7 @@ const Popular = () => {
             POPULAR THIS WEEK
           </h1>
           <div className="border-b-4 border-gray-800 w-24 mx-auto rounded-full my-3"></div>
-          <div className="flex">
+          <div className="flex mt-14">
             {dummy.map((item) => {
               return (
                 <div className="inline ">

@@ -7,8 +7,10 @@ const PopularCard = ({ image, description, price }) => {
         </div>
         <p className="text-left">{description}</p>
         <div className="font-bold flex justify-between">
-          <p>${price}</p>
-          <p>+ add to basket</p>
+          <p className="p-1">${price}</p>
+          <button className="p-1 font-bold rounded hover:bg-gray-100">
+            + add to basket
+          </button>
         </div>
       </div>
     </>
