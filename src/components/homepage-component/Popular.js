@@ -4,6 +4,8 @@ import brand3 from '../../assets/brand3.png';
 import brand4 from '../../assets/brand4.png';
 import brand5 from '../../assets/brand5.png';
 import brand6 from '../../assets/brand6.png';
+import { dummy } from '../../data/dummy-product';
+import PopularCard from './PopularCard';
 
 const Popular = () => {
   return (
@@ -13,7 +15,20 @@ const Popular = () => {
           <h1 className="inline  text-2xl pb-3 font-bold ">
             POPULAR THIS WEEK
           </h1>
-          <div className="border-b-4 border-gray-800 w-24 mx-auto rounded-full mt-3"></div>
+          <div className="border-b-4 border-gray-800 w-24 mx-auto rounded-full my-3"></div>
+          <div className="flex">
+            {dummy.map((item) => {
+              return (
+                <div className="inline ">
+                  <PopularCard
+                    image={item.image}
+                    description={item.description}
+                    price={item.price}
+                  />
+                </div>
+              );
+            })}
+          </div>
         </div>
         <div className="mt-16 ">
           <h1 className="inline  text-2xl pb-3 font-bold ">BRAND FOR YOU</h1>
