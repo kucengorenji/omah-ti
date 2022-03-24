@@ -1,42 +1,60 @@
 const Navbar = () => {
   return (
     <>
-      <nav className="flex p-3 justify-between mx-7 bg-slate-300">
-        <div>
-          <img src="#kjasfdklj" alt="logo" />
+      <nav className="flex p-3 justify-between bg-[#FAFAFA]">
+        <div className="ml-12 font-bold text-2xl text-center">
+          Laura’s Closet
         </div>
-        <span class="w-screen md:w-1/3 h-10 bg-gray-200 cursor-pointer border border-gray-300 text-sm rounded-full flex">
-          <input
-            type="search"
-            name="serch"
-            placeholder="Search"
-            class="flex-grow px-4 rounded-l-full rounded-r-full text-sm focus:outline-none"
-          />
-          <i class="fas fa-search m-3 mr-5 text-lg text-gray-700 w-4 h-4"></i>
-        </span>
-        <div class="flex flex-row-reverse mr-4 ml-4 md:hidden">
-          <i class="fas fa-bars"></i>
-        </div>{' '}
-        <div>
+        <form>
+          <div class="relative text-gray-600 focus-within:text-gray-400">
+            <span class="absolute inset-y-0 left-0 flex items-center pl-2">
+              <button
+                type="submit"
+                class="p-1 focus:outline-none focus:shadow-outline"
+              >
+                <svg
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  viewBox="0 0 24 24"
+                  class="w-6 h-6"
+                >
+                  <path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+                </svg>
+              </button>
+            </span>
+            <input
+              type="search"
+              name="q"
+              class="py-2 text-sm text-white bg-[#FAFAFA] border-b-2 pl-10 focus:outline-none  focus:text-gray-900"
+              placeholder="Search for an Item..."
+              autocomplete="off"
+            />
+          </div>
+        </form>
+
+        <div className="mr-12">
           <ul className="flex p-3">
             <li>
               <a href="#sdfasdjfl;" className="p-3">
-                Home
+                Store
               </a>
             </li>
             <li>
               <a href="#sdfasdjfl;" className="p-3">
-                Home
+                Account
               </a>
             </li>
             <li>
               <a href="#sdfasdjfl;" className="p-3">
-                Home
+                Wish List
               </a>
             </li>
             <li>
-              <a href="#sdfasdjfl;" className="p-3">
-                Home
+              <a href="#sdfasdjfl;" className="p-3 font-bold">
+                Basket
               </a>
             </li>
           </ul>
