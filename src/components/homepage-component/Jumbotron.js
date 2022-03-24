@@ -5,7 +5,7 @@ const Jumbotron = () => {
     <div className="flex  ">
       <div className="bg-[#1C2333] bg-decor-jumbotron text-white flex w-full min-h-[600px]">
         <div className="align-middle ml-[100px] my-auto rounded-lg justify-center p-11 w-full max-w-[500px] bg-gray-800">
-          <h1 className="text-white text-5xl font-bold">
+          <h1 className="text-white text-5xl font-bold my-9">
             Get Up to 30% off{' '}
             <span className="text-yellow-600">New Arrival</span>
           </h1>
