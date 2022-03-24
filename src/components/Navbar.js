@@ -2,7 +2,7 @@ const Navbar = () => {
   return (
     <>
       <nav className="flex p-3 justify-between bg-[#FAFAFA]">
-        <div className="ml-12 font-bold text-2xl text-center">
+        <div className="ml-12 font-bold text-3xl mt-1 text-cente text-bottom align-bottom">
           Laura’s Closet
         </div>
         <form>
@@ -38,22 +38,34 @@ const Navbar = () => {
         <div className="mr-12">
           <ul className="flex p-3">
             <li>
-              <a href="#sdfasdjfl;" className="p-3">
+              <a
+                href="#sdfasdjfl;"
+                className="border-b-2 border-white hover:border-b-2 hover:border-gray-800 p-3"
+              >
                 Store
               </a>
             </li>
             <li>
-              <a href="#sdfasdjfl;" className="p-3">
+              <a
+                href="#sdfasdjfl;"
+                className="border-b-2 border-white hover:border-b-2 hover:border-gray-800 p-3"
+              >
                 Account
               </a>
             </li>
             <li>
-              <a href="#sdfasdjfl;" className="p-3">
+              <a
+                href="#sdfasdjfl;"
+                className="border-b-2 border-white hover:border-b-2 hover:border-gray-800 p-3"
+              >
                 Wish List
               </a>
             </li>
             <li>
-              <a href="#sdfasdjfl;" className="p-3 font-bold">
+              <a
+                href="#sdfasdjfl;"
+                className="border-b-2 border-white hover:border-b-2 hover:border-gray-800 p-3 font-bold"
+              >
                 Basket
               </a>
             </li>

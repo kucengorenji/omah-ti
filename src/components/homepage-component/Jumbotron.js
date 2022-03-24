@@ -1,8 +1,10 @@
+import image from '../../assets/image-removebg-preview 1.png';
+
 const Jumbotron = () => {
   return (
-    <div className="flex  absolute left-0 w-full ">
-      <div className="bg-[#1C2333] text-white  flex w-full h-screen">
-        <div className="align-middle ml-[100px] my-auto rounded-lg justify-center p-11 max-w-[500px] bg-gray-700">
+    <div className="flex  ">
+      <div className="bg-[#1C2333] text-white flex w-full min-h-[600px]">
+        <div className="align-middle ml-[100px] my-auto rounded-lg justify-center p-11 w-full max-w-[500px] bg-gray-700">
           <h1 className="text-white text-5xl font-bold">
             Get Up to 30% off{' '}
             <span className="text-yellow-600">New Arrival</span>
@@ -16,7 +18,12 @@ const Jumbotron = () => {
         </div>
       </div>
       <div className="bg-[#F7C59F] flex w-full basis-4/6">
-        <div className="rounded-full m-auto bg-white w-[341px] h-[341px]"></div>
+        <div className="relative rounded-full m-auto bg-white w-[341px] h-[341px]">
+          <img
+            src={image}
+            className="absolute z-10 object-center h-[600px] -top-28"
+          />
+        </div>
       </div>
     </div>
   );

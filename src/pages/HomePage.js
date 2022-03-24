@@ -5,8 +5,9 @@ import Popular from '../components/homepage-component/Popular';
 const HomePage = () => {
   return (
     <>
+      <Jumbotron />
       <div className="container mx-auto px-4 min-h-screen">
-        <Jumbotron />
+        <div className=""></div>
         <NewHighlight />
         <Popular />
       </div>
