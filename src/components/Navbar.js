@@ -1,11 +1,12 @@
 import basket from '../assets/shopping-basket.png';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   return (
     <>
       <nav className="flex p-3 justify-between bg-[#FAFAFA]">
         <div className="ml-12 font-bold text-3xl mt-1 text-cente text-bottom align-bottom">
-          Laura’s Closet
+          <Link to="/">Laura’s Closet</Link>
         </div>
         <form>
           <div class="relative text-gray-600 focus-within:text-gray-400">
@@ -40,41 +41,41 @@ const Navbar = () => {
         <div className="mr-12">
           <ul className="flex p-3">
             <li>
-              <a
-                href="#sdfasdjfl;"
+              <Link
+                to="/api"
                 className="border-b-2 border-[#FAFAFA]
 bg-[#FAFAFA] hover:border-b-2 hover:border-gray-800 p-3"
               >
-                Store
-              </a>
+                Implementasi API
+              </Link>
             </li>
             <li>
-              <a
-                href="#sdfasdjfl;"
+              <Link
+                to="/"
                 className="border-b-2 border-[#FAFAFA]
 bg-[#FAFAFA] hover:border-b-2 hover:border-gray-800 p-3"
               >
                 Account
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="#sdfasdjfl;"
+              <Link
+                to="/"
                 className="border-b-2 border-[#FAFAFA]
 bg-[#FAFAFA] hover:border-b-2 hover:border-gray-800 p-3"
               >
                 Wish List
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="#sdfasdjfl;"
+              <Link
+                to="/"
                 className="border-b-2 border-[#FAFAFA]
 bg-[#FAFAFA] hover:border-b-2 hover:border-gray-800 p-3 font-bold"
               >
                 Basket
                 <img src={basket} className="inline" />
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
