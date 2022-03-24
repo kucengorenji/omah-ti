@@ -4,6 +4,7 @@ module.exports = {
     extend: {
       backgroundImage: (theme) => ({
         'bottom-image': "url('/src/assets/image.png')",
+        jumbotron: "url('/src/assets/jumbotron.png')",
       }),
     },
   },

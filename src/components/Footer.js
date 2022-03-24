@@ -1,3 +1,12 @@
+import payment from '../assets/payment.png';
+import appleLogo from '../assets/apple-logo.png';
+import androidLogo from '../assets/android-logo.png';
+import facebook from '../assets/facebook.png';
+import twitter from '../assets/twitter.png';
+import instagram from '../assets/instagram.png';
+import tiktok from '../assets/tiktok.png';
+import snapchat from '../assets/snapchat.png';
+
 const Footer = () => {
   return (
     <>
@@ -36,45 +45,52 @@ const Footer = () => {
           <div className="w-full ">
             <div className="flex p-9 justify-between">
               <div className="px-3">
-                <p className="text-center">Social Media</p>
-                <ul>
+                <p className="font-bold mb-3 ">SOCIALS</p>
+                <ul className="flex space-x-3">
                   <li>
                     <a>
-                      <a>
-                        <img></img>
-                      </a>
+                      <img src={facebook} />
                     </a>
                   </li>
                   <li>
                     <a>
-                      <a>
-                        <img></img>
-                      </a>
+                      <img src={twitter} />
+                    </a>
+                  </li>
+                  <li>
+                    <a>
+                      <img src={instagram} />
+                    </a>
+                  </li>
+                  <li>
+                    <a>
+                      <img src={snapchat} />
+                    </a>
+                  </li>
+                  <li>
+                    <a>
+                      <img src={tiktok} />
                     </a>
                   </li>
                 </ul>
               </div>
               <div className="px-3">
-                <p className="text-center">Social Media</p>
-                <ul>
+                <p className="font-bold mb-3 text-center">PLATFORM</p>
+                <ul className="flex space-x-3">
                   <li>
                     <a>
-                      <a>
-                        <img></img>
-                      </a>
+                      <img src={androidLogo} />
                     </a>
                   </li>
                   <li>
                     <a>
-                      <a>
-                        <img></img>
-                      </a>
+                      <img src={appleLogo} />
                     </a>
                   </li>
                 </ul>
               </div>
             </div>
-            <div className="p-9">
+            <div className="px-9">
               <form className="w-full">
                 <p className="font-bold">
                   SIGN UP FOR LAURAS CLOSET STYLE NEWS
@@ -123,51 +139,8 @@ const Footer = () => {
             </div>
           </div>
           <div className="p-9 w-full">
-            <p className="font-bold">WE ACCEPT</p>
-            <div>
-              <ul>
-                <li>
-                  <a>
-                    <img></img>
-                  </a>
-                </li>
-                <li>
-                  <a>
-                    <img></img>
-                  </a>
-                </li>
-                <li>
-                  <a>
-                    <img></img>
-                  </a>
-                </li>
-                <li>
-                  <a>
-                    <img></img>
-                  </a>
-                </li>
-                <li>
-                  <a>
-                    <img></img>
-                  </a>
-                </li>
-                <li>
-                  <a>
-                    <img></img>
-                  </a>
-                </li>
-                <li>
-                  <a>
-                    <img></img>
-                  </a>
-                </li>
-                <li>
-                  <a>
-                    <img></img>
-                  </a>
-                </li>
-              </ul>
-            </div>
+            <p className="font-bold mb-3">WE ACCEPT</p>
+            <img src={payment} />
           </div>
         </div>
       </nav>

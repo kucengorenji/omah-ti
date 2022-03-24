@@ -1,7 +1,7 @@
 const OutfitBar = () => {
   return (
     <>
-      <ul className="flex space-x-8 w-full bg-[#FFFFFF] ml-4 overflow-x-auto">
+      <ul className="flex space-x-8 w-full bg-[#FFFFFF] ml-4 overflow-x-auto ">
         <li className="whitespace-nowrap mr-2 p-2 my-1 border-b-2 border-white hover:border-b-2 hover:border-gray-800 ml-11">
           <button>
             <a>New Arrivals </a>

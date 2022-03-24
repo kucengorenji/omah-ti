@@ -1,3 +1,5 @@
+import basket from '../assets/shopping-basket.png';
+
 const Navbar = () => {
   return (
     <>
@@ -67,6 +69,7 @@ const Navbar = () => {
                 className="border-b-2 border-white hover:border-b-2 hover:border-gray-800 p-3 font-bold"
               >
                 Basket
+                <img src={basket} className="inline" />
               </a>
             </li>
           </ul>
