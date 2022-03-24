@@ -42,7 +42,8 @@ const Navbar = () => {
             <li>
               <a
                 href="#sdfasdjfl;"
-                className="border-b-2 border-white hover:border-b-2 hover:border-gray-800 p-3"
+                className="border-b-2 border-[#FAFAFA]
+bg-[#FAFAFA] hover:border-b-2 hover:border-gray-800 p-3"
               >
                 Store
               </a>
@@ -50,7 +51,8 @@ const Navbar = () => {
             <li>
               <a
                 href="#sdfasdjfl;"
-                className="border-b-2 border-white hover:border-b-2 hover:border-gray-800 p-3"
+                className="border-b-2 border-[#FAFAFA]
+bg-[#FAFAFA] hover:border-b-2 hover:border-gray-800 p-3"
               >
                 Account
               </a>
@@ -58,7 +60,8 @@ const Navbar = () => {
             <li>
               <a
                 href="#sdfasdjfl;"
-                className="border-b-2 border-white hover:border-b-2 hover:border-gray-800 p-3"
+                className="border-b-2 border-[#FAFAFA]
+bg-[#FAFAFA] hover:border-b-2 hover:border-gray-800 p-3"
               >
                 Wish List
               </a>
@@ -66,7 +69,8 @@ const Navbar = () => {
             <li>
               <a
                 href="#sdfasdjfl;"
-                className="border-b-2 border-white hover:border-b-2 hover:border-gray-800 p-3 font-bold"
+                className="border-b-2 border-[#FAFAFA]
+bg-[#FAFAFA] hover:border-b-2 hover:border-gray-800 p-3 font-bold"
               >
                 Basket
                 <img src={basket} className="inline" />
