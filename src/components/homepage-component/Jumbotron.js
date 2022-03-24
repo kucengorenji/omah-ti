@@ -3,7 +3,7 @@ import image from '../../assets/image-removebg-preview 1.png';
 const Jumbotron = () => {
   return (
     <div className="flex  ">
-      <div className="bg-[#1C2333] bg-jumbotron text-white flex w-full min-h-[600px]">
+      <div className="bg-[#1C2333] bg-decor-jumbotron text-white flex w-full min-h-[600px]">
         <div className="align-middle ml-[100px] my-auto rounded-lg justify-center p-11 w-full max-w-[500px] bg-gray-800">
           <h1 className="text-white text-5xl font-bold">
             Get Up to 30% off{' '}

@@ -56,28 +56,28 @@ const Popular = () => {
               <span class="font-mono text-2xl">
                 <span>07</span>
               </span>
-              days
+              Days
             </div>
             <span class="font-mono text-2xl">:</span>
             <div class="flex flex-col">
               <span class="font-mono text-2xl">
                 <span>08</span>
               </span>
-              hours
+              Hours
             </div>
             <span class="font-mono text-2xl">:</span>
             <div class="flex flex-col">
               <span class="font-mono text-2xl">
                 <span>04</span>
               </span>
-              min
+              Min
             </div>
             <span class="font-mono text-2xl">:</span>
             <div class="flex flex-col">
               <span class="font-mono text-2xl">
                 <span>05 </span>
               </span>
-              sec
+              Sec
             </div>
           </div>
         </div>
