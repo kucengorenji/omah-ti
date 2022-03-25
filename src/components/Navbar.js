@@ -46,7 +46,7 @@ const Navbar = () => {
                 className="border-b-2 border-[#FAFAFA]
 bg-[#FAFAFA] hover:border-b-2 hover:border-gray-800 p-3"
               >
-                Implementasi API
+                Consume API
               </Link>
             </li>
             <li>
